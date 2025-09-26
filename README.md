@@ -84,9 +84,9 @@ Source: [Kaggle - Retail Sales Dataset](https://www.kaggle.com/datasets/mohammad
 - **Segment Labels**:
   Each cluster is assigned a label based on its RFM characteristics:
   - **Champions (18% of customers):** High-spending, frequent buyers who shop regularly - these are the company's most valuable customers requiring VIP treatment and exclusive offers
-- **Potential Loyalists (22% of customers):** Good customers who could become Champions with the right incentives - perfect targets for loyalty programs and upselling campaigns
-- **At-Risk Customers (16% of customers):** Previously valuable customers who haven't shopped recently - immediate priority for win-back campaigns to prevent losing them to competitors
-- **New/Low-Value Customers (44% of customers):** Small spenders or one-time buyers - need nurturing campaigns to increase engagement and purchase frequency
+  - **Potential Loyalists (22% of customers):** Good customers who could become Champions with the right incentives - perfect targets for loyalty programs and upselling campaigns
+  -  **At-Risk Customers (16% of customers):** Previously valuable customers who haven't shopped recently - immediate priority for win-back campaigns to prevent losing them to competitors
+  -   **New/Low-Value Customers (44% of customers):** Small spenders or one-time buyers - need nurturing campaigns to increase engagement and purchase frequency
 
 ---
 
