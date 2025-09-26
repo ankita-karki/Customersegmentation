@@ -21,12 +21,8 @@ Source: [Kaggle - Retail Sales Dataset](https://www.kaggle.com/datasets/mohammad
 
 ---
 
-## Objective
-
-The primary goal of this project is to:
-- Perform **customer segmentation** using RFM analysis and K-means clustering.
-- Identify high-value customer groups and provide actionable insights for targeted marketing strategies.
-- Visualize the results to facilitate decision-making.
+## Problem Statement
+"A retail company is struggling with ineffective marketing campaigns that treat all customers the same, resulting in low engagement rates and wasted marketing budget. The company needs to understand which customers are their most valuable, who is at risk of leaving, and how to create targeted campaigns that speak to different customer needs - but currently lacks the data insights to make these strategic decisions."
 
 ---
 
@@ -79,14 +75,18 @@ The primary goal of this project is to:
 
 - **Visualizations**:
   - Histograms showing the distribution of RFM metrics.
+ <img width="640" height="480" alt="barplot (1)" src="https://github.com/user-attachments/assets/2dc2ff7f-c096-483a-8f91-30d1bbb12789" />
+
   - Scatter plot visualizing the clusters in two dimensions using PCA.
+    <img width="1000" height="600" alt="PCAplot" src="https://github.com/user-attachments/assets/bc586356-63c1-4cb7-b574-2bb180819826" />
+
 
 - **Segment Labels**:
   Each cluster is assigned a label based on its RFM characteristics:
-  - **High-Value Loyalists**: Customers with high Frequency and Monetary values.
-  - **At-Risk Customers**: Customers with low Recency, low Frequency, and low Monetary values.
-  - **Potential Loyalists**: Customers with moderate RFM values.
-  - **Low-Engagement**: Customers with high Recency and low Frequency/Monetary values.
+  - **Champions (18% of customers):** High-spending, frequent buyers who shop regularly - these are the company's most valuable customers requiring VIP treatment and exclusive offers
+- **Potential Loyalists (22% of customers):** Good customers who could become Champions with the right incentives - perfect targets for loyalty programs and upselling campaigns
+- **At-Risk Customers (16% of customers):** Previously valuable customers who haven't shopped recently - immediate priority for win-back campaigns to prevent losing them to competitors
+- **New/Low-Value Customers (44% of customers):** Small spenders or one-time buyers - need nurturing campaigns to increase engagement and purchase frequency
 
 ---
 
